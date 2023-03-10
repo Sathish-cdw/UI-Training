@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+h2{
+    background-color: #3b1c67;
+    color: #ffffff;
+    padding: 2%;
+    font-weight: 300;
+}
+.containerBox
+{
+    /* color: white; */
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.card
+{
+    background-color: #4d67b4;
+    display: flex;
+    width: 500px;
+    height: 105px;
+   align-items: center;
+   padding-left: 1.2%;
+   color: #ffffff;
+}
+.image
+{
+    width:72px;
+    height: 72px;
+    border-radius: 50%;
+}
+
+.card-details
+{
+    margin-left: 20px;
+}
+.name
+{
+    font-size: 20px;
+}
+.email-id
+{
+    font-size: 15px;
+    font-weight: 300;
+}
+
