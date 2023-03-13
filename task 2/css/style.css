@@ -1,0 +1,98 @@
+*
+{
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header
+{
+    color: white;
+    background-color:#43133e;
+    padding: 2%;
+    text-align:center;
+    font-size: 40px;
+}
+.Main-image
+{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 25px;
+}
+.containerBox
+{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.cards
+{
+    display: inline-block;
+    width: calc((100% - 10px) / 3);
+    padding: 10px;
+    font-weight: 100;
+}
+.cards-header
+{
+    
+    margin-bottom: 10px;
+}
+.cards-header > h2
+{
+    font-weight: 200;
+    font-size: 30px;
+}
+.cards-article
+{
+    font-weight: 300;
+    font-size: 18px;
+    margin: 10px 0px 20px 0px ;
+    line-height: 1.5;
+}
+button
+{
+    font-size: 15px;
+    font-weight: 400;
+    background-color:#7a1655;
+    color: #ffffff;
+    padding: 3% 6% 3% 6%;
+    border: none;
+}
+img{
+    width: 100%;
+}
+.section-header{
+    margin-top: 5%;
+    color: #800080;
+    text-align: center;
+    font-weight: 300;
+    font-size: 60px;
+    margin-bottom: 2%;
+}
+.section-article
+{
+    font-weight: 100;
+    font-size: 30px;
+    text-align: justify;
+    width:70%;
+    margin: auto;
+    margin-bottom: 5%;
+    line-height: 1.5;
+}
+footer
+{
+    background-color:#7a1655;
+    color: #ffffff;
+    padding: 2%;
+    padding-left: 4.9%;
+}
+footer h2{
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+footer h3{
+    margin-top: 0px;
+    font-weight: 300;
+}
