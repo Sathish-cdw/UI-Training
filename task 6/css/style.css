@@ -1,0 +1,178 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #2a2b30;
+}
+.main
+{
+    width: 85%;
+    margin: auto;
+}
+.header{
+    position: relative;
+    margin:auto;
+    margin-bottom: -30px;
+}
+.logo-image{
+    width: 157px;
+    height: 10%;
+}
+.logo-image img{
+    width:100%;
+    margin-top:60px;
+}
+.aside-circle{
+    position: absolute;
+    background-color: #d7d7d7;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    right:0px;
+    top:60px;
+    margin-right: 28px;
+}
+.dropdown{
+    background-color: white;
+    right: 25px;
+    top:130px;
+    display: none;
+}
+.details{
+    width:230px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    padding:20px;
+    margin-top: 10px;
+    color:#000000;
+}
+.aside-circle:hover+.dropdown{
+    position: absolute;
+    display:block;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.container
+{
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+.card
+{
+    position: relative;
+    width:23%;
+    margin-right: 26px;
+    margin-top: 45px;
+    display: inline-block;
+}
+.circle
+{
+    position: absolute;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #8ab282;
+    margin-left: 268px;
+    text-align: center;
+    bottom: 115px;
+    padding-top: 3.8%;
+    font-size: 21px;
+    margin-bottom: -10px;
+}
+.star 
+{
+    color:#8ab282;
+}
+.star i
+{
+    position: absolute;
+    font-size: 20px;
+    margin-top: -350px;
+    margin-left: 295px;
+}
+.star-fill 
+{
+    font-size: 20px;
+    margin-top: -350px;
+    margin-left: 287px;
+    color: #8ab282;
+    display: none;
+}
+.star i:hover ~.star-fill 
+{
+   display: inline-block;
+}
+.jacket-card-img, .tshirt-card-img
+{
+    height: 370px;
+    background-color: #24252a;
+}
+.tshirt-card-img img
+{
+    margin: 85px 90px;
+    max-height: 210px;
+    display: inline-block;
+}
+
+.jacket-card-img img
+{
+    margin: 85px 67px;
+    max-height: 210px;
+    display: inline-block;
+}
+.description h2
+{
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 18px;
+}
+.description p
+{
+    color:#acacac;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card button
+{
+    width: 37%;
+    font-size: 15px;
+    font-weight: 500;
+    color:#acacac;
+    background-color: #24252a;
+    border: 1px solid #8a8a8a;
+    padding: 3% 3.7%;
+}
+.card button:hover
+{
+    color:#000000;
+    background-color: #8ab282;
+    border: #000000;
+}
+footer
+{
+    position: fixed;
+    color: white;
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    bottom: 0;
+    height:8vh;
+}
+footer span
+{
+    display: inline-block;
+    background-color: #000000;
+    padding: 30px;
+    font-size: 20px;
+}
