@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap" 
+    rel="stylesheet"/>
+    <title>From validation</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+
+        <!-- <h3>BILLING DETAILS</h3>
+        <p>First Name</p>
+        <input type="name" placeholder="First-Name" id="firstName">
+        <p>Last Name</p>
+        <input type="name" placeholder="Second-Name" id="secondName">
+        <p>Email address</p>
+        <input type="e-mail" value="emailId">
+        <p>contact number</p>
+        <input type="number">
+        <p>pincode</p>
+        <input type="number">
+        <button>complete payment</button> -->
+
+
+        <!-- <input type="text" name="username" id="input" class="form-control" placeholder="Your username">
+        <div class="error" id="nameErr">Username cannot be empty</div> -->
+        <header>
+            <img src="img/Sirius_CDW_Cobranded_PMS2747.svg" alt="sirius log" class="image-sirius"/>
+        </header>
+
+        <form>
+            <h2>BILLING DETAILS</h2>
+
+            <div class="name">
+                <div class="first-Name">
+                    <p>First Name</p>
+                    <input type="text" placeholder="First-Name" class="holder" id="fName">
+                    <div class="s-error" id="nameErr">Firstname is required</div>
+                    <nav></nav>
+                </div>
+                <div class="second-Name">
+                    <p>Second Name</p>
+                    <input type="text" placeholder="Second-Name" class="holder" id="lName">
+                    <div class="s-error" id="nameErr">Last name is required</div>
+                    <nav></nav>
+                </div>
+            </div>
+            <div class="e-Mail">
+                <p>Email Address </p>
+                <input type="e-mail"  placeholder="Email-Id" class="holder" id="email">
+                <div class="s-error" id="nameErr">Email Address is required</div>
+                <nav></nav>
+            </div>
+            <div class="p-No">
+                <p>Contact Number </p>
+                <input type="text" placeholder="Phone-Number" class="holder" id="contact">
+                <div class="s-error" id="nameErr">Contact Number is required</div>
+                <nav></nav>
+            </div>
+            <div class="P-Code">
+                <p>PIN Code </p>
+                <input type="text" placeholder="Pin-Code" class="holder" id="zip">
+                <div class="s-error" id="nameErr">PIN Code is required </div>
+                <nav></nav>
+            </div>
+            <h2>PAYMENT DETAILS</h2>
+            <div class="card-No">
+                <p>Card Number</p>
+                <input type="text" placeholder="Card-Number" class="holder" id="cardNum">
+                <div class="s-error" id="nameErr">Card Number is required </div>
+                <nav></nav>
+            </div>
+            <div class="card-Footer">
+                <div class="card-Footer-Expiry">
+                    <p>Card Expiry(Year)</p>
+                    <input type="text" placeholder="crad-Expiry" class="holder" id="expYear">
+                    <div class="s-error" id="nameErr">Card Expiry is required</div>
+                    <nav></nav>
+                </div>
+                <div class="card-Footer-CVV">
+                    <p>CVV </p>
+                    <input type="text" placeholder="CVV" class="holder" id="cvv">
+                    <div class="s-error" id="nameErr">CVV is required</div>
+                    <nav></nav>
+                </div>
+            </div>
+            <button id="submit">COMPLETE PAYMENT</button>
+        </form>
+
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
